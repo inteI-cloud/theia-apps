@@ -73,7 +73,7 @@
         "@theia/workspace": "latest",
         "@theia/node-pty": "0.7.8-theia004",
         "nsfw": "1.2.5",
-        "find-git-repositories": "0.1.1"
+        "find-git-repositories": "0.2.1"
     },
     "devDependencies": {
         "@theia/cli": "latest"
