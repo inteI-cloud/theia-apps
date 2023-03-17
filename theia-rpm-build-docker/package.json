@@ -11,7 +11,7 @@
         "@theia/markers": "latest",
         "@theia/messages": "latest",
         "@theia/mini-browser": "latest",
-        "@theia/navigator": "latest",
+        "@theia/navigator": "1.35.0",
         "@theia/outline-view": "latest",
         "@theia/preferences": "latest",
         "@theia/preview": "latest",
