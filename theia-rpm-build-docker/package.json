@@ -7,7 +7,7 @@
     },
     "dependencies": {
         "@theia/callhierarchy": "latest",
-        "@theia/file-search": "latest",
+        "@theia/file-search": "1.35.0",
         "@theia/markers": "latest",
         "@theia/messages": "latest",
         "@theia/mini-browser": "latest",
