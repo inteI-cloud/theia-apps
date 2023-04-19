@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:18.04
 # install development tools
 RUN apt-get update && \
     apt-get install -y curl sudo build-essential jq vim && \
@@ -25,7 +25,7 @@ RUN yarn && \
 RUN npm run build-deb
 
 # transfer debian package to a new clean image and install theia
-FROM ubuntu:bionic
+FROM ubuntu:18.04
 COPY --from=0 /theia-app/theia-example_0.0.1_all.deb /
 RUN apt-get update && apt-get install -y curl sudo && \
     curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && \
